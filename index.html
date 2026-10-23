@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subnet Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Subnet <span>Calculator</span></h1>
+  <p>Enter an IPv4 address with a CIDR prefix, for example 192.168.10.77/26.</p>
+  <div class="row">
+    <input id="cidr" value="192.168.10.77/26" aria-label="IPv4/CIDR" autocomplete="off" spellcheck="false">
+    <button id="calc">Calculate</button>
+  </div>
+  <div id="out"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
